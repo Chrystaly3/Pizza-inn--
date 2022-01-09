@@ -97,3 +97,43 @@ color:#fff;
 	margin-left: 3rem;
 	
 }
+.contact-us .contact-content{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+}
+.contact-us .contact-content .text{
+	font-size: 1.2rem;
+}
+.contact-us .contact-content .left{
+	text-align: justify;
+}
+.contact-us .contact-content .left .icons{
+margin: 10px 0;	
+}
+.contact-us .contact-content .row{
+	display: flex;
+	height: 65px;
+	align-items: center;
+
+}
+.contact-us .contact-content .row .info{
+	margin-left: 30px;
+	margin-top: -4rem;
+}
+.contact-us .contact-content .row i{
+	font-size: 1.3rem;
+	color: #9A0680;
+}
+.contact-us .contact-content .info .head{
+	font-weight: 500;
+}
+.contact-us .right form .fields{
+	display: flex;
+}
+.contact-us .right form .fields,
+.contact-us .right form .fields .field{
+	height: 45px; 
+	width: 100%;
+}
