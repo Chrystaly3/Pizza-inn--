@@ -8,3 +8,17 @@
   color: #1A5F7A;
 
 }
+.navbar .container-fluid
+.collapse ul li a{
+	font-size: 1.5rem;
+	color: #9A0680;
+
+}
+.sign .btn{
+	background-color: #9A0680;
+	color: #fff;
+	font-size: 1.5rem;
+	padding: 0 1rem;
+	text-decoration: none;
+	border-radius: 8px;
+}
