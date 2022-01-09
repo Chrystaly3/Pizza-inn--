@@ -22,3 +22,7 @@
 	text-decoration: none;
 	border-radius: 8px;
 }
+.sign .btn:hover{
+background-color: #1A5F7A;
+color:#fff;
+}
