@@ -26,3 +26,56 @@
 background-color: #1A5F7A;
 color:#fff;
 }
+.right1 .right2 .btn{
+	background-color: #9A0680;
+	color: #fff;
+	font-size: 1.5rem;
+	padding: 0 1rem;
+	text-decoration: none;
+	border-radius: 8px;
+}
+.right1 .right2 .btn:hover{
+	background-color: #1A5F7A;
+color:#fff;
+}
+.right1  .btn i{
+	margin-left: 1rem;
+	color: #fff;
+}
+.price{
+	margin-left: 1.3rem;
+
+}
+.price h5{
+	font-size: 1.5rem;
+}
+.menu{
+	text-align: center;
+	}
+	
+.one a{
+	background-color: #9A0680;
+	color: #fff;
+	font-size: 1.5rem;
+	padding: 0 1rem;
+	text-decoration: none;
+	border-radius: 8px;
+
+	}
+	.one a:hover{
+		background-color: #1A5F7A;
+		color:#fff ;
+	}
+
+.one{
+	box-shadow: 8px 4px 2px 2px yellow;
+	
+	}
+.one h5{
+	font-weight: bold;
+}
+.one a i{
+	margin-left: 1rem;
+	font-weight: bold;
+	color: #fff;
+}
