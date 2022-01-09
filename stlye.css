@@ -84,6 +84,16 @@ color:#fff;
 .menu{
 	margin-left: 10rem;
 }
+.select-p{
+	box-shadow: 8px 4px 2px 2px yellowgreen;
+
+}
+.select h2{
+	font-weight:bold;
+	text-transform: uppercase;
+
+}
 .cone{
 	margin-left: 3rem;
+	
 }
