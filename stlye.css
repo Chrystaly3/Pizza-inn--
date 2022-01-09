@@ -137,3 +137,14 @@ margin: 10px 0;
 	height: 45px; 
 	width: 100%;
 }
+.contact-us .right form .textarea{
+height: 80px;
+width: 100%;
+}
+.contact-us .right form .name{
+	margin-right: 10px;
+
+}
+.contact-us .right form .email{
+	
+}
