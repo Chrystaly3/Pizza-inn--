@@ -5,17 +5,20 @@
 	padding: 0;
 	font-family: 'IBM Plex Serif', serif;
   font-family: 'Playfair Display', serif;
-  color: #1A5F7A;
-
+  color: #000;
 }
 .navbar .container-fluid
 .collapse ul li a{
 	font-size: 1.5rem;
-	color: #9A0680;
+	color: #FFF;
+	background-color: #11760F;
 
 }
+.navbar .btn:hover{
+	background-color: #b6060b;
+}
 .sign .btn{
-	background-color: #9A0680;
+	background-color: #11760F;
 	color: #fff;
 	font-size: 1.5rem;
 	padding: 0 1rem;
@@ -23,11 +26,12 @@
 	border-radius: 8px;
 }
 .sign .btn:hover{
-background-color: #1A5F7A;
+background-color:#b6060b;
 color:#fff;
 }
+
 .right1 .right2 .btn{
-	background-color: #9A0680;
+	background-color: #11760F;
 	color: #fff;
 	font-size: 1.5rem;
 	padding: 0 1rem;
@@ -35,7 +39,7 @@ color:#fff;
 	border-radius: 8px;
 }
 .right1 .right2 .btn:hover{
-	background-color: #1A5F7A;
+	background-color: #b6060b;
 color:#fff;
 }
 .right1  .btn i{
@@ -54,7 +58,7 @@ color:#fff;
 	}
 	
 .one a{
-	background-color: #9A0680;
+	background-color: #11760F;
 	color: #fff;
 	font-size: 1.5rem;
 	padding: 0 1rem;
@@ -63,7 +67,7 @@ color:#fff;
 
 	}
 	.one a:hover{
-		background-color: #1A5F7A;
+		background-color: #b6060b;
 		color:#fff ;
 	}
 
@@ -97,54 +101,144 @@ color:#fff;
 	margin-left: 3rem;
 	
 }
-.contact-us .contact-content{
+
+.contact .contact-content{
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: space-between;
 }
-.contact-us .contact-content .text{
-	font-size: 1.2rem;
+
+.contact .contact-content .column{
+	width: calc(50% - 30px);
 }
-.contact-us .contact-content .left{
+.contact .contact-content .text{
+	font-size: 20px;
+	font-weight: 600;
+	margin-bottom: 18px;
+	font-family: Regular, Semibold and Bold;
+}
+.contact .contact-content .left{
 	text-align: justify;
 }
-.contact-us .contact-content .left .icons{
-margin: 10px 0;	
+.contact .contact-content .left .icons{
+	margin: 10px 0;
 }
-.contact-us .contact-content .row{
+.contact .contact-content .row{
 	display: flex;
 	height: 65px;
 	align-items: center;
-
 }
-.contact-us .contact-content .row .info{
+.contact .contact-content .row .info{
 	margin-left: 30px;
 	margin-top: -4rem;
+	
 }
-.contact-us .contact-content .row i{
-	font-size: 1.3rem;
-	color: #9A0680;
+.contact .contact-content .row i{
+	font-size: 25px;
+	color: #11760F;
 }
-.contact-us .contact-content .info .head{
+.contact .contact-content .info .head{
 	font-weight: 500;
 }
-.contact-us .right form .fields{
+
+.contact .right form .fields{
 	display: flex;
 }
-.contact-us .right form .fields,
-.contact-us .right form .fields .field{
-	height: 45px; 
+.contact .right form .fields,
+.contact .right form .fields .field{
+	height: 45px;
 	width: 100%;
 }
-.contact-us .right form .textarea{
-height: 80px;
-width: 100%;
+.contact .right form .textarea{
+	height: 80px;
+	width: 100%;
 }
-.contact-us .right form .name{
+.contact .right form .name{
 	margin-right: 10px;
+}
+.contact .right form .email{
+	margin-left: 10px;
+}
+.contact .right form .fields input,
+.contact .right form .textarea textarea{
+	height: 100%;
+	width: 100%;
+	border: 1px solid lightgrey;
+	border-radius: 6px;
+	outline: none;
+	padding: 0 15px;
+	font-size: 17px;
+	font-family: Regular, Semibold and Bold;
+}
+.contact .right form  .textarea textarea{
+	padding-top: 10px;
+	resize: none;
+}
+
+
+
+.contact .right  .btn{
+	background-color: #11760F;
+	color: #fff;
+	font-size: 1.5rem;
+	padding: 0 2rem;
+	text-decoration: none;
+	border-radius: 0.5rem;
+}
+.contact .right form .button .btn:hover{
+	background-color: #b6060b;
+	color: white;
+	font-size: 1.5rem;
+	padding: 0 1rem;
+	text-decoration: none;
+	border-radius: 0.5rem;
+}
+
+
+
+
+
+.contact .right form .button button:hover{
+	color: #b6060b;
+	background: none;
+}
+.icon{
+	padding: 0 3rem;
+	text-align: center;
+	
 
 }
-.contact-us .right form .email{
+
+
+.social a {
+	margin-bottom: 1rem;
+	font-size: 22px;
+	color: #FFAB4C;
+	margin: 1.4rem;
+
+}
+
+.social a:hover {
+	color: #105652;
+}
+
+.heading {
+	text-align: center;
+
+}
+.heading h1 {
+	font-size: 1.8rem;
 	
+	
+}
+
+footer{
+	padding: 20px 23px;
+	color: #FFAB4C;
+	text-align: center;
+	font-family: Regular, Semibold and Bold;
+}
+.pin{
+	margin-left: 8rem;
 }
