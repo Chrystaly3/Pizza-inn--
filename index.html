@@ -72,7 +72,7 @@
 					<div class="card one   col-md-4 mx-3" style="width: 18rem; ">
 						<div class="card-body">
 							<img src="assets/p1.png" class="img-fluid" width="250" alt="">
-							<h5 class="card-title">Pizza Napoletana</h5>
+							<h5 class="card-title">Pizza Peproni</h5>
 							<p class="card-text">Born in Napoli, la pizza 
 								Napoletana is one of the most famous types of Italian pizza.</p>
 							<a href="" class="btn">Order <i class="bi bi-arrow-right"></i>
@@ -111,24 +111,62 @@
 						<form action="" id="myform">
 							<div class="form-group">
 								<input type="text" id="myName" class="form-control mb-4" min="1" max="20" placeholder="name " oninvalid="this.setCustomValidity('Please input your Name')" oninput="this.setCustomValidity('')" required >
-					</div>
-					<div class="form-group mb-3">
-						<select name="" id="size" aria-label="Default select example" class="form-select mb-3" oninvalid="this.setCustomValidity('select pizza size')" oninput="this.setCustomValidity('')" required >
-							<option value="" selected>select size</option>
-							<option value="Large">Large-1200</option>
-							<option value="Medium">Medium-800</option>
-							<option value="Small">Small-600</option>
-						</select>
-					</div>
-					<div class="form-group">
-						<select name="" id="crust" aria-label="Default select example" class="form-select mb -3" oninvalid="this.setCustomValidity('select crust')" oninput="this.setCustomValidity('')" required>
-						<option value="" selected >Choose crust</option>
-						<option value="cheese">cheese</option>
-						<option value="thin">thin</option>
-						<option value="stuffed">stuffed</option>
-						<option value="thick">thick</option>
-						</select>
-					
+								</div>
+								<div class="form-group mb-3">
+									<select name="" id="size" aria-label="Default select example" class="form-select mb-3" oninvalid="this.setCustomValidity('select pizza size')" oninput="this.setCustomValidity('')" required >
+										<option value="" selected>select size</option>
+										<option value="Large">Large-1200</option>
+										<option value="Medium">Medium-800</option>
+										<option value="Small">Small-600</option>
+									</select>
+									</div>
+									<div class="form-group">
+										<select name="" id="crust" aria-label="Default select example" class="form-select mb -3" oninvalid="this.setCustomValidity('select crust')" oninput="this.setCustomValidity('')" required>
+											<option value="" selected >Choose crust</option>
+											<option value="cheese">cheese</option>
+											<option value="thin">thin</option>
+											<option value="stuffed">stuffed</option>
+											<option value="thick">thick</option>
+										</select>	
+									</div>
+									<div class="form-group">
+										<input type="number" id="quantity" class="form-control mb-3" min="1" max="10" placeholder="quatity" oninvalid="this.setCustomValidity('How many pizza do you want')" oninput="this.setCustomValidity('')" required>
+									</div>
+										<h4 class="text-center">Toppings</h4>
+										<div class="container justify-content-evenly">
+											<div class="fast">
+												<div class="form-check">
+													<input class="form-check-input" type="checkbox" value="Peperoni" id="Peperoni"  name="mole"required>
+													<label class="form-check-label" for="flexCheckDefault">
+														Peperoni
+													</label>
+												</div>
+							<div class="form-check">
+								<input class="form-check-input" type="checkbox" value="Mushroom" id="Mushroom" name="mole" required>
+								<label class="form-check-label" for="flexCheckChecked">
+									Mushroom
+								</label>
+							</div>
+							<div class="form-check">
+								<input class="form-check-input" type="checkbox" value="Bacon" id="Bacon"  name="mole"required>
+								<label class="form-check-label" for="flexCheckDefault">
+									Bacon
+								</label>
+							</div>						
+							</div>
+						</div>
+						<h3 id="errorMessage"></h3>
+						<div class="form-check">
+							<input type="checkbox" class="form-check-input" name="deliver" id="delivery" value="1">
+							<label for="flexCheckDefault" class="form-check-label">to be delivered</label>
+						</div>
+						<div class="form-group text-center mt-3" >
+							<button type="submit" id="btnClick" class="btn btn-success ">add to cart
+
+							</button>
+
+						</div>
+
 					</div>
 
 
