@@ -42,7 +42,57 @@ function validate(){
 $(document).ready(function(){
 	$('form#myform').submit(function(event){
 		event.preventDefault();
-		shipping
+		shipping = parseInt($(#show-locate).val());
+		let name = $("#myName").val();
+		let pizzaSize = $("#size").val();
+		
+		function price(){
+			if(pizzaSize == "Small"){
+				return 600;
+			}else if(pizzaSize == "Medium"){
+				return 800;
+			}else if(pizzaSize == "Large"){
+				return 1200;
+			}
+		}
+		let pizzaCrust = $("#crust").val();
+		let crust = crustPrice()
+//Crust
+		function crustPrice(){
+			if(pizzaCrust === "cheese" ){
+				return 200
+			}else if(pizzaCrust === "thin"){
+				return 300
+			}else if(pizzaCrust === "stuffed"){
+				return 400
+			}else if(pizzaCrust === "thick"){
+				return 500
+			}
+		}
+		//Toppings
+		let pizzaToppings = checkedToppings();
+		function checkedToppings(){
+			let toppingName = document.getElementByName("mole");
+			let toppingLength = toppingName.length;
+			let toppingValue = " ";
+		for(i = 0; i < toppingLength; i++){
+			let toppingChecked = toppingName[i].checked;
+
+			if(toppingChecked){
+				toppingValue += toppingName[i].value;
+			}
+
+		}
+		
+
+
+
+
+
+
+
+
+			}
 
 	})
 })
