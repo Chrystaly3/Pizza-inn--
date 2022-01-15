@@ -200,8 +200,94 @@
 		</div>		
 	</section>
 	<div class="container-fluid col-md-8 mb-5 mt-5 hide">
-		
+		<div class="text">
+			<div class="modal fade" id="exampleModal " tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLabel">Pizza inn</h5>
+							<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+						</div>
+						<div class="modal-body" id="colourfull">
+							<h4>order receipt</h4>
+							<p id="eachSize"></p>
+							<p id="eachCrust"></p>
+							<p id="eachTopping"></p>
+							<p id="eachQuantity"></p>
+							<p id="eachTotal"></p>
+							<p id="text"></p>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+							<button type="button" class="btn btn-primary">Save changes</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="div">
+				<a class="btn text-warning deliveryButton" data-bs-toggle="modal" href="#exampleModalToggle"
+				role="button">Your location details</a>
+		<button class="btn m-3 btn-warning" type="submit" data-bs-toggle="modal"
+				data-bs-target="#exampleModal">Checkout</button>
+			</div>
+			</div>
+			<div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+				<div class="modal-dialog-centered">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="examleModalToggleLabel"><img src="assets/nice1.png  " width="200px" alt="">Pizza inn</h5>
+							<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+						</div>
+						<div class="modal-body">
+							<form onsubmit="return false" class="showing">
+								<div class="mb-3">
+										<p class="text-white">Delivery fee is 250 Ksh</p>
+										<label for="name" class="form-label">Phone number</label>
+										<input type="tel" maxlength="10" name="phone" class="form-control"
+												placeholder="eg 0711223344" id="phone"
+												oninvalid="this.setCustomValidity('fill in your phone number')"
+												oninput="this.setCustomValidity('')" required>
 
+										<label for="name" class="form-label">Location</label>
+										<input type="text" name="locate" class="form-control" id="locate"
+												oninvalid="this.setCustomValidity('Please fill out your location')"
+												oninput="this.setCustomValidity('')" required>
+								</div>
+								<button type="submit" class="btn btn-primary" onclick="validate()" id="submit-btn">Save</button>
+						</form>
+
+							
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+							<button type="button" class="btn btn-primary">Save changes</button>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggle2"  tabindex="-1">
+				<div class="modal-dialog-centered">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalToggle2">Pizza inn</h5>
+							<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+						</div>
+						<div class="modal-body">
+							<p id="show-save"></p>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+							<button type="button" class="btn btn-primary">Save changes</button>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+
+
+		</div>		
 	</div>
 
 
