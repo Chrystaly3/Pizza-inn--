@@ -110,8 +110,19 @@
 					<div class="card-body">
 						<form action="" id="myform">
 							<div class="form-group">
-								<input type="text" id="myName" class="form-control mb-4" min="1" max="20" placeholder="name " oninvalid="this.setCustomValidity('Please input your Name')">
-							</div>
+								<input type="text" id="myName" class="form-control mb-4" min="1" max="20" placeholder="name " oninvalid="this.setCustomValidity('Please input your Name')" oninput="this.setCustomValidity('')" required >
+					</div>
+					<div class="form-group mb-3">
+						<select name="" id="size" class="form-select mb-3" oninvalid="this.setCustomValidity('select pizza size')" oninput="this.setCustomValidity('')" required >
+							<option value="" selected>select size</option>
+							<option value="Large">Large-1200</option>
+							<option value="Medium">Medium-800</option>
+							<option value="Small">Small-600</option>
+						
+						</select>
+					</div>
+
+
 						</form>
 					</div>
 				</div>
