@@ -81,18 +81,20 @@ $(document).ready(function(){
 			if(toppingChecked){
 				toppingValue += toppingName[i].value;
 			}
-
 		}
-		
-
-
-
-
-
-
-
-
+		let results = toppingValue
+		return results;
 			}
+		let pizzQuantity = parseInt($("#Quantity").val());
+		let mySize = price();
+		let myToppings = checkBox();
+		function checkBox(){
+			let check = document.getElementsByName("mole");
+			let box1 = 150
+			let box2 = 180
+			let box3 = 200
+			
+		}
 
 	})
 })
