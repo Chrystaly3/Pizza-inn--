@@ -1,8 +1,10 @@
 # IP4
 
-# Date:16/01/2022
+# Date:
+16/01/2022
 
-# By Josephine Mueni Nzioka
+# Author
+ Josephine Mueni Nzioka
 
 # Design
 
@@ -32,17 +34,20 @@ check out 			|order receipt
 locations incase there is derivery
 
 
-## Images 
-<mg src="assets/part of the page.png">
+# Images 
+
+<img src="assets/part of the page.png">
 
 # Support and contact details
 
 This code is open for any improvement.Incase you need my
 contacts find them below thanks.
 
-#### Email:josephine.nzioka@student.moringaschool.com
+# Email
+josephine.nzioka@student.moringaschool.com
 
-#### Phone: 0712811416
+# Phone
+ 0712811416
 
 # License
 License permission is hereby granted ,free of charge to anyone obtaining a copy of these software and associated documentation to deal in the software without restrictions including without limitation the rights to use ,copy modify ,publish and distribute copies of these software and to permit persons to whom the software is furnished to do so,subject to the following conditions:
