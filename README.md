@@ -6,7 +6,7 @@
 
 # Description
 
-Delani Studio project
+Pizzel Pizza In
 
 ## Design
 
