@@ -1,28 +1,30 @@
-# IP4
+### IP4
 
-# Date:
+### Date:
 16/01/2022
+### TITTLE
+PIZZEL PIZZA INN
 
-# Author
+### Author
  Josephine Mueni Nzioka
 
-# Design
+### Design
 
 A pizza ordering web application
 
-# Description
+### Description
 
 "Pizza is not peperoni type which comes from the word
 pepper.Pepperoni is variety of spicy salami made from cured pork and beef seasoned with paprika or other chili pepper.
 comes with different crust and toppings
-# Technologies
-HTML
-CSS
-JavaScript
-Bootstrap
-JQUERY
+### Technologies
+*Html
+*css
+*javaScript
+*Bootstrap
+Jquery
 
-## inputs  			## output order sample
+###  inputs  			 output order sample
 name  					| i.e Josephine
 PizzaSize  			| i.e large-size @1200
 Type of Crust 	|i.e cheese
