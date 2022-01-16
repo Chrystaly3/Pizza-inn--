@@ -4,42 +4,36 @@
 
 # By Josephine Mueni Nzioka
 
+# Design
+
+A pizza ordering web application
+
 # Description
 
-Pizzel Pizza In
+"Pizza is not peperoni type which comes from the word
+pepper.Pepperoni is variety of spicy salami made from cured pork and beef seasoned with paprika or other chili pepper.
+comes with different crust and toppings
+# Technologies
+HTML
+CSS
+JavaScript
+Bootstrap
+JQUERY
 
-## Design
-
-"From our past role our firm is responsible for creating cohesive and visually attractive front-end designs. We also do Back-end design to ensure the websites are responsive and user-friendly."
-
-## Development
-Our developers are competent and fluent with latest technologies.
-
-## Product Management
-
-Planning and development its impotant part in our firm since we build codes from scratch and test them to see their fuctionality and user friendly.
-
-# Technology used;
-
-## 1.HTML
-
-## 2.CSS
-
-## 3.JavaScript
-
-## 4. Bootstrap
-
-## 5. JQUERY
+## inputs  			## output order sample
+name  					| i.e Josephine
+PizzaSize  			| i.e large-size @1200
+Type of Crust 	|i.e cheese
+Type of Toppings|I.e peperoni
+Quantity 				|2pcs	
+Total:					|3200
+order again 		|repeat same procedure or
+check out 			|order receipt
+locations incase there is derivery
 
 
-<img src="asset/assets/Delani-Studio.png">
-
-
-<img src="asset/assets/Delani-Studio2.png">
-
-
-
-<img src="asset/assets/Delani-Studio3.png">
+## Images 
+<mg src="assets/part of the page.png">
 
 # Support and contact details
 
