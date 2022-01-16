@@ -19,10 +19,14 @@ pepper.Pepperoni is variety of spicy salami made from cured pork and beef season
 comes with different crust and toppings
 ### Technologies
 *Html
+
 *css
+
 *javaScript
+
 *Bootstrap
-Jquery
+
+*Jquery
 
 ###  inputs  			 output order sample
 name  					| i.e Josephine
@@ -36,22 +40,22 @@ check out 			|order receipt
 locations incase there is derivery
 
 
-# Images 
+### Images 
 
 <img src="assets/part of the page.png">
 
-# Support and contact details
+### Support and contact details
 
 This code is open for any improvement.Incase you need my
 contacts find them below thanks.
 
-# Email
+### Email
 josephine.nzioka@student.moringaschool.com
 
-# Phone
+### Phone
  0712811416
 
-# License
+## License
 License permission is hereby granted ,free of charge to anyone obtaining a copy of these software and associated documentation to deal in the software without restrictions including without limitation the rights to use ,copy modify ,publish and distribute copies of these software and to permit persons to whom the software is furnished to do so,subject to the following conditions:
 
 The above copyright notice should be included.
