@@ -93,8 +93,35 @@ $(document).ready(function(){
 			let box1 = 150
 			let box2 = 180
 			let box3 = 200
-			
+			if(check[0].checked){
+				document.getElementById("errorMessage").innerHTML="";
+				return box1;
+			}else if(check[1].checked){
+				document.getElementById("errorMessage").innerHTML = "";
+				return box2;
+			}else if(check[2].checked){
+				document.getElementById("errorMessage").innerHTML = "";
+				return box3;
+			}
+		}
+		let checked = checkBox();
+		let shipping = addDelivery();
+		function addDelivery(){
+			let checkDelivery= document.getElementsByName("deliver");
+			if(checkDelivery[0].checked){
+				let money = 200;
+				return money;
+			}else if(!checkDelivery[1].checked){
+				let noMoney = 0;
+				return noMoney;
+				
+			}
+		}
+		let newTotal = new total(pizzaQuantity,pizzSize,pizzaCrust,pizzaToppings,pizzaDelivery);
+		if (name != " " && pizzaSize != " " && pizzaCrust != " " && pizzaQuantity != " "&& check ){
+			$(".hide").fadeIn
 		}
 
+		
 	})
 })
