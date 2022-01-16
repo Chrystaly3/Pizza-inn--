@@ -10,34 +10,49 @@
 .navbar .container-fluid
 .collapse ul li a{
 	font-size: 1.5rem;
-	color: #FFF;
-	background-color: #11760F;
+	color: #000;
+	/* background-color: #11760F; */
 
 }
 .navbar .btn:hover{
 	background-color: #b6060b;
 }
 .sign .btn{
-	background-color: #11760F;
+	background-color:#ffac0e	;
 	color: #fff;
 	font-size: 1.5rem;
 	padding: 0 1rem;
 	text-decoration: none;
 	border-radius: 8px;
-}
-.sign .btn:hover{
-background-color:#b6060b;
-color:#fff;
 }
 
-.right1 .right2 .btn{
-	background-color: #11760F;
+ .div-intro h5{
+	font-size: 2rem;
+	
+}
+.div-right2 p{
+	max-height: 200;
+	font-size: 1.4rem;
+}
+.div-intro{
+	margin-left:1.5rem;
+}
+.div-right1 .div-right2 .con2 .con3 .btn:hover{
+	background: #b6060b;
+	color: aliceblue;
+}
+.div-right2 h1{
+	font-size: 2rem;
+}
+
+ .div-right1 .div-right2 .con2 .con3 .btn{
+	background-color: #ffac0e	;
 	color: #fff;
 	font-size: 1.5rem;
 	padding: 0 1rem;
 	text-decoration: none;
 	border-radius: 8px;
-}
+} 
 .right1 .right2 .btn:hover{
 	background-color: #b6060b;
 color:#fff;
@@ -58,7 +73,7 @@ color:#fff;
 	}
 	
 .one a{
-	background-color: #11760F;
+	background-color: #ffac0e	;
 	color: #fff;
 	font-size: 1.5rem;
 	padding: 0 1rem;
@@ -72,7 +87,7 @@ color:#fff;
 	}
 
 .one{
-	box-shadow: 8px 4px 2px 2px yellow;
+	box-shadow: 8px 4px 2px 2px gray;
 	padding: 1rem;
 	height: 68vh;
 	border-radius: 3%;
@@ -137,7 +152,7 @@ color:#fff;
 }
 .contact .contact-content .row i{
 	font-size: 25px;
-	color: #11760F;
+	color: #ffac0e	;
 }
 .contact .contact-content .info .head{
 	font-weight: 500;
@@ -180,7 +195,7 @@ color:#fff;
 
 
 .contact .right  .btn{
-	background-color: #11760F;
+	background-color: #ffac0e	;
 	color: #fff;
 	font-size: 1.5rem;
 	padding: 0 2rem;
@@ -221,7 +236,7 @@ color:#fff;
 }
 
 .social a:hover {
-	color: #105652;
+	color: #b6060b;
 }
 
 .heading {
